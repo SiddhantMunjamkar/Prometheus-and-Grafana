@@ -1,2 +1,5 @@
 --prom-client
 1.npm install prom-client
+
+--docker yml file for the prom
+1. docker run -p 9090:9090 -v ./prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
