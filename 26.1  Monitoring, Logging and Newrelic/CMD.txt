@@ -1,0 +1,10 @@
+--newrelic and express installation
+1.npm install newrelic express
+
+
+--Open another terminal and loadtest the app
+1.npm i -g loadtest
+2.loadtest -c 10 --rps 200 http://localhost:3000/
+
+--Add winston as the logger
+1.npm install winston
